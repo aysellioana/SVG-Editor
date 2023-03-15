@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+	<title> SVG Editor</title>
+	<link rel="stylesheet" href="6_1081_Batcoveanu_Aysel_Ioana.css">
+</head>
+
+<body style="text-align: center;">
+	<h1> SVG Project </h1>
+	<br>
+	<section>
+		<label>Selecteaza culoarea: </label>
+		F:<input type="color"  value="#e62468" name="color" id="color-fill">
+		S:<input type="color"value="#e62468" name="color" id="color-back">
+		<label>Selecteaza grosimea liniei: </label>
+		<input type="range" min="1" max="10" value="3">
+	</section>
+	<br>
+	<button id="dreptunghi" onclick="onClickdreptunghi()">Deseneaza dreptunghi </button>
+	<button id="elipsa" onclick="onClickelipsa()"> Deseneaza elipsa </button>
+	<button id="romb" onclick="onClickromb()"> Deseneaza romb </button>
+	<button id="linie" onclick="onClicklinie()"> Deseneaza linie</button>
+	<button id="polyline" onclick="onClickpolyline()"> Deseneaza polyline</button>
+	<button id="undo">Undo</button>
+	<button id="savePNG">Save</button>
+	<hr>
+	<br>
+
+
+	<svg id="SVGeditor">
+		<svg id="SVGelemente"> </svg>
+		<rect id="sDreptunghi" width="0" height="0" style="display:none;"></rect>
+		<ellipse id="sElipsa" width="0" height="0" style="display:none;"></ellipse>
+		<polygon id="sRomb" width="0" height="0" style="display:none;"></polygon>
+		<line id="sLinie" width="0" height="0" style="display:none;"></line>
+		<polyline id="sPolyline" width="0" height="0" style="display:none;"></polyline>
+	</svg>
+	
+	<script src="6_1081_Batcoveanu_Aysel_Ioana.js"></script>
+</body>
+
+</html>

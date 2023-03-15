@@ -1,0 +1,72 @@
+html, body {
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+
+svg {
+    width:1000px;
+    height:600px;
+    margin:0px;
+    padding:0px;
+    background-color:white;
+    cursor:crosshair;
+    border:6px solid purple;
+}
+
+h1 {
+width:100%;
+background-color:rgb(233, 137, 183);
+margin-top:0px;
+margin-bottom:0px;
+padding:8px;
+}
+
+
+svg rect {
+fill:chartreuse;
+fill-opacity:0.2;
+stroke:navy;
+stroke-opacity:0.2;
+border: 3px solid;
+}
+
+svg ellipse {
+    fill:chartreuse;
+    fill-opacity:0.2;
+    stroke:navy;
+    stroke-opacity:0.2;
+}
+
+svg polygon {
+    fill:chartreuse;
+    fill-opacity:0.2;
+    stroke:navy;
+    stroke-opacity:0.2;
+}
+
+svg line, svg polyline{
+    fill:chartreuse;
+    fill-opacity:0.2;
+    stroke:navy;
+    stroke-opacity:0.2;
+}
+
+svg #sDreptunghi, svg #sElipsa, svg #sRomb, svg #sLinie, svg #sPolyline
+{
+fill:transparent;
+stroke:blue;
+border: 2px solid;
+stroke-opacity:0.6;
+stroke-dasharray: 3,3;
+}
+
+svg .selectat
+{
+    fill:pink;
+}
+
+ button{
+    background-color: rgb(245, 165, 181);
+ }
